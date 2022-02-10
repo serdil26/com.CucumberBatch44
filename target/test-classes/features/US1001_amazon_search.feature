@@ -2,8 +2,8 @@ Feature: US1001_amazon_search
 
   Scenario: TC01_Amazon Search Test
     Given kullanici amazon sayfasina gider
-    And iPhone icin arama yapar
-    Then sonuclarin Iphone icerdigini test eder
+    And iphone icin arama yapar
+    Then sonuclarin iphone icerdigini test eder
 
     Given kullanici amazon sayfasina gider
     And tea pot icin arama yapar
