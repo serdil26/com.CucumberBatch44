@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features", // runner calismazsa pathler kontrol edilmeli
         glue = "stepdefinitions",
-        tags = "@parametreliTest",  //calistirmak istedigimiz tag yazilir
+        tags = "@hotel",  //calistirmak istedigimiz tag yazilir
         dryRun = false              //default degeri false'tur(normal calistiriken false olmali)
                                    //hata bulmak istiyorsak true ile calistiririz
 
