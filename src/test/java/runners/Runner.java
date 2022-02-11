@@ -17,4 +17,9 @@ import org.junit.runner.RunWith;
 public class Runner {
     //runner class'inin body'sine hicbir kod yazilmayacak
     //bu class icin onemli olan kullanacagimiz 2 adet notation!
+
+    // features ve glue olarak spesifik bir class veya feature dosyasini degil
+    // tum klasor ve package'i sectik
+    // dolayisiyla stepdefinitions package'i icerisinde hangi class'da olursa olsun
+    // isimize yarayan bir stepdefition varsa rahatlikla kullanabiliriz
 }
