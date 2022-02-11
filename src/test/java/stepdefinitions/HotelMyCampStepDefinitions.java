@@ -36,4 +36,15 @@ hmcPage.loginButonu.click();
     public void girisYapilamadiginiTestEder() {
         Assert.assertTrue(hmcPage.girisYapilamadiYaziElementi.isDisplayed());
     }
+
+
+    @Then("scenario outline'dan kullanici adi olarak {string} yazar")
+    public void scenarioOutlineDanKullaniciAdiOlarakYazar(String username) {
+        hmcPage.userNameBox.sendKeys(username);
+    }
+
+    @And("scenario outline'dan password olarak {string} yazar")
+    public void scenarioOutlineDanPasswordOlarakYazar(String password) {
+        hmcPage.passwordBox.sendKeys(password);
+    }
 }
