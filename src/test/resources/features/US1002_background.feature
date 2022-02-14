@@ -1,3 +1,4 @@
+@paralel2
 Feature: US1002 Background ile amazon search testi
 
 Background: amazon sayfasina giris
@@ -10,7 +11,7 @@ Given kullanici amazon sayfasina gider
     And iphone icin arama yapar
     Then sonuclarin iphone icerdigini test eder
 
-    @wip
+    @toplu
   Scenario: TC03_Amazon tea pot Search Test
     And tea pot icin arama yapar
     Then sonuclarin tea pot icerdigini test eder

@@ -1,5 +1,5 @@
 Feature: US1001_amazon_search
-
+@toplu   @paralel1
   Scenario: TC01_Amazon Search Test
     Given kullanici amazon sayfasina gider
     And iphone icin arama yapar
