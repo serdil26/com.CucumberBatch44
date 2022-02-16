@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
         plugin={"html:target\\cucumber-reports.html"},
         features = "src/test/resources/features", // runner calismazsa pathler kontrol edilmeli
         glue = "stepdefinitions",
-        tags = "@webUn",  //calistirmak istedigimiz tag yazilir
-        dryRun = false            //default degeri false'tur(normal calistiriken false olmali)
+        tags = "@Automation",  //calistirmak istedigimiz tag yazilir
+        dryRun = true            //default degeri false'tur(normal calistiriken false olmali)
                                    //hata bulmak istiyorsak true ile calistiririz
 
 )
